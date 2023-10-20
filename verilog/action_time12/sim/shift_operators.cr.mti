@@ -1,0 +1,8 @@
+{/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time12/shift_operators.v} {1 {vlog -work work -stats=none {/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time12/shift_operators.v}
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module shift_operators
+
+Top level modules:
+	shift_operators
+
+} {} {}}

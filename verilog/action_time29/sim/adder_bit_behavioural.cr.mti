@@ -1,0 +1,9 @@
+{/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time29/adder_4bit_behavioral.v} {1 {vlog -work work -stats=none {/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time29/adder_4bit_behavioral.v}
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module adder_4bit_behavioral
+-- Compiling module tb_adder_4bit_behav
+
+Top level modules:
+	tb_adder_4bit_behav
+
+} {} {}}

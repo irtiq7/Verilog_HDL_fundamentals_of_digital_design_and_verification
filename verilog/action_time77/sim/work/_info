@@ -1,0 +1,55 @@
+m255
+K4
+z2
+!s11f vlog 2019.2 2019.04, Apr 16 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time76/sim
+vram_dp_async_read
+Z0 !s110 1695287658
+!i10b 1
+!s100 952aaXLnXFYaz9JBU;@;30
+!s11b @5kXj1BLKkafc@1Ce>i2n2
+I8D5I5m7>6=2Dl;=af9zVR2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 d/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time77/sim
+Z3 w1695287296
+Z4 8/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time77/ram_dp_async_read.v
+Z5 F/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time77/ram_dp_async_read.v
+L0 2
+Z6 OP;L;2019.2;69
+r1
+!s85 0
+31
+Z7 !s108 1695287658.000000
+!s107 /home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time77/ram_dp_async_read.v|
+Z8 !s90 -reportprogress|300|-work|work|-stats=none|/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time77/ram_dp_async_read.v|
+!i113 1
+Z9 o-work work
+Z10 tCvgOpt 0
+vtb_ram_dp_async_read
+R0
+!i10b 1
+!s100 FUm9S5UZORN;S1bY:jR0k2
+!s11b VoH9TbcHQM`V74RdjfWH12
+I9]U>i8PeAIaSIeCHSGD=E0
+R1
+R2
+R3
+R4
+R5
+L0 30
+R6
+r1
+!s85 0
+31
+R7
+Z11 !s107 /home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time77/ram_dp_async_read.v|
+R8
+!i113 1
+R9
+R10

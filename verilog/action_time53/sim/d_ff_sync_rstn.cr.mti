@@ -1,0 +1,9 @@
+{/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time53/d_ff_sync_rstn.v} {1 {vlog -work work -stats=none {/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time53/d_ff_sync_rstn.v}
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module d_ff_sync_rstn
+-- Compiling module tb_d_dff_rstn
+
+Top level modules:
+	tb_d_dff_rstn
+
+} {} {}}

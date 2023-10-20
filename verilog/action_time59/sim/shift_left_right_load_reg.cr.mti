@@ -1,0 +1,9 @@
+{/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time59/shift_left_right_load_reg.v} {1 {vlog -work work -stats=none {/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time59/shift_left_right_load_reg.v}
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module shift_left_right_load_reg
+-- Compiling module tb_shift_left_right_reg
+
+Top level modules:
+	tb_shift_left_right_reg
+
+} {} {}}

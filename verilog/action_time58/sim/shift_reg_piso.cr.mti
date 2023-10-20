@@ -1,0 +1,9 @@
+{/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time58/shift_reg_piso.v} {1 {vlog -work work -stats=none {/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time58/shift_reg_piso.v}
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module shift_reg_piso
+-- Compiling module tb_shift_reg_piso
+
+Top level modules:
+	tb_shift_reg_piso
+
+} {} {}}

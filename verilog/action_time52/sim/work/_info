@@ -1,0 +1,55 @@
+m255
+K4
+z2
+!s11f vlog 2019.2 2019.04, Apr 16 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time51/sim
+vd_latch_rstn
+Z0 !s110 1693828904
+!i10b 1
+!s100 S3m74Am2h<9JG]P><;i]42
+!s11b ;Q3?cJQYPHH5kYe8`lKOQ2
+I8f3KD2@Tz6>QWbo3XYlVW2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 d/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time52/sim
+Z3 w1693828809
+Z4 8/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time52/d_latch_rstn.v
+Z5 F/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time52/d_latch_rstn.v
+L0 2
+Z6 OP;L;2019.2;69
+r1
+!s85 0
+31
+Z7 !s108 1693828904.000000
+!s107 /home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time52/d_latch_rstn.v|
+Z8 !s90 -reportprogress|300|-work|work|-stats=none|/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time52/d_latch_rstn.v|
+!i113 1
+Z9 o-work work
+Z10 tCvgOpt 0
+vtb_d_latch_rstn
+R0
+!i10b 1
+!s100 gUeC@TNhN?L7_ec>3WDOK3
+!s11b C;5bIG7T7C6;G]cLd:oQQ3
+INQ01ElLN^ck^WH?1L`UX?0
+R1
+R2
+R3
+R4
+R5
+L0 28
+R6
+r1
+!s85 0
+31
+R7
+Z11 !s107 /home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time52/d_latch_rstn.v|
+R8
+!i113 1
+R9
+R10

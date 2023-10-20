@@ -1,0 +1,9 @@
+{/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time57/shift_reg_siso.v} {1 {vlog -work work -stats=none {/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time57/shift_reg_siso.v}
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module shift_reg_siso
+-- Compiling module tb_shift_reg_siso
+
+Top level modules:
+	tb_shift_reg_siso
+
+} {} {}}

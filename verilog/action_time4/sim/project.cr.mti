@@ -1,0 +1,9 @@
+{/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time4/literal_values.v} {2 {vlog -work work -stats=none {/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time4/literal_values.v}
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module literal_values
+** Warning: /home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time4/literal_values.v(25): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+Top level modules:
+	literal_values
+
+} {} {}}

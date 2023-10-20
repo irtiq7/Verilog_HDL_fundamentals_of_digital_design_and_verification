@@ -1,0 +1,99 @@
+m255
+K4
+z2
+!s11f vlog 2019.2 2019.04, Apr 16 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time26/sim
+vfull_adder_structural
+Z0 !s110 1693473015
+!i10b 1
+!s100 [N2H6<maFTKX`gQ:K=gi@2
+!s11b N0UNI0@FPLHmf::l:1d780
+IN[XKzRzZg99=OQ1lXDd3E0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 d/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time27/sim
+Z3 w1693472874
+Z4 8/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time27/ripple_adder_4bit_structural.v
+Z5 F/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time27/ripple_adder_4bit_structural.v
+L0 49
+Z6 OP;L;2019.2;69
+r1
+!s85 0
+31
+Z7 !s108 1693473015.000000
+!s107 /home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time27/ripple_adder_4bit_structural.v|
+Z8 !s90 -reportprogress|300|-work|work|-stats=none|/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time27/ripple_adder_4bit_structural.v|
+!i113 1
+Z9 o-work work
+Z10 tCvgOpt 0
+vhalf_adder_structural
+R0
+!i10b 1
+!s100 OKWAO][JSd_5dW0:8FndZ2
+!s11b ?:GaPS2[oF9?kOkfk<5XT1
+If=S?=?6=Z3OVN>e1F[Pf91
+R1
+R2
+R3
+R4
+R5
+L0 84
+R6
+r1
+!s85 0
+31
+R7
+Z11 !s107 /home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time27/ripple_adder_4bit_structural.v|
+R8
+!i113 1
+R9
+R10
+vripple_adder_4bit_structural
+R0
+!i10b 1
+!s100 E9;3A5IVTc]j;7=8hlJBm3
+!s11b O2mW4Eb5=QW@[5>3KoBbS0
+IgZFPAVQCZ@f4X_@A?U_VM0
+R1
+R2
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 1
+R9
+R10
+vtestbench
+R0
+!i10b 1
+!s100 P^[9n<R:TZ^@1<a3gUkOT0
+!s11b G^Mf=f>Zi7k<5T9oUU;RF2
+IEk1Y<h]2o=Wo]niLH6Tlz0
+R1
+R2
+R3
+R4
+R5
+L0 99
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 1
+R9
+R10

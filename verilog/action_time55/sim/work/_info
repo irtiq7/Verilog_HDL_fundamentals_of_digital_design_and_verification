@@ -1,0 +1,55 @@
+m255
+K4
+z2
+!s11f vlog 2019.2 2019.04, Apr 16 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time54/sim
+vshift_reg_pipo
+Z0 !s110 1693830159
+!i10b 1
+!s100 T_C?BzSgWi4HJU2V>824>3
+!s11b IIQFm3BgRLY1lAoFXI`_01
+I^UGDMB<b]5cLee=k9bQcN2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 d/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time55/sim
+Z3 w1693830072
+Z4 8/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time55/shift_reg_pipo.v
+Z5 F/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time55/shift_reg_pipo.v
+L0 1
+Z6 OP;L;2019.2;69
+r1
+!s85 0
+31
+Z7 !s108 1693830159.000000
+!s107 /home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time55/shift_reg_pipo.v|
+Z8 !s90 -reportprogress|300|-work|work|-stats=none|/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time55/shift_reg_pipo.v|
+!i113 1
+Z9 o-work work
+Z10 tCvgOpt 0
+vtb_shift_reg_pipo
+R0
+!i10b 1
+!s100 [BUd;B<f2:I[fLE?ehgcU3
+!s11b fQNjRBhEU=oO?=>jzkaP=3
+Ik^YR6I@2`bd8Un^Xz4B1d0
+R1
+R2
+R3
+R4
+R5
+L0 22
+R6
+r1
+!s85 0
+31
+R7
+Z11 !s107 /home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time55/shift_reg_pipo.v|
+R8
+!i113 1
+R9
+R10

@@ -1,0 +1,55 @@
+m255
+K4
+z2
+!s11f vlog 2019.2 2019.04, Apr 16 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time29/sim
+vbuilt_in_gates
+Z0 !s110 1693814168
+!i10b 1
+!s100 c:?ZKQ@S`JiP;GMG]Gbh60
+!s11b <k1MJ8MeDQRdE?i7`nzP53
+I:Y@PDhZXTbORFLJmMIa=^0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 d/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time30/sim
+Z3 w1693814030
+8/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time30/built_in_gates.v
+F/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time30/built_in_gates.v
+L0 3
+Z4 OP;L;2019.2;69
+r1
+!s85 0
+31
+Z5 !s108 1693814168.000000
+!s107 /home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time30/built_in_gates.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time30/built_in_gates.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vtb_gates
+R0
+!i10b 1
+!s100 ZOHRHzgRjB78hoII7NczL2
+!s11b 4@_1`QePf2_Z`k6W]z8@82
+IU<k?N;BUEI:lazdfV<=[T3
+R1
+R2
+R3
+8/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time30/tb_gates.v
+F/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time30/tb_gates.v
+L0 4
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time30/tb_gates.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time30/tb_gates.v|
+!i113 1
+R6
+R7

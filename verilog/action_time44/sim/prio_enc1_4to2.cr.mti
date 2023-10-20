@@ -1,0 +1,9 @@
+{/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time44/prio_enc1_4to2.v} {1 {vlog -work work -stats=none {/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time44/prio_enc1_4to2.v}
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module prio_enc1_4to2
+-- Compiling module tb_prio_enc1_4to2
+
+Top level modules:
+	tb_prio_enc1_4to2
+
+} {} {}}

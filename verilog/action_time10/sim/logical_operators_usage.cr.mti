@@ -1,0 +1,8 @@
+{/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time10/logical_operators_usage.v} {1 {vlog -work work -stats=none {/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time10/logical_operators_usage.v}
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module logical_operators_usage
+
+Top level modules:
+	logical_operators_usage
+
+} {} {}}

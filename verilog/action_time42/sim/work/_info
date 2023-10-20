@@ -1,0 +1,77 @@
+m255
+K4
+z2
+!s11f vlog 2019.2 2019.04, Apr 16 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time41/sim
+vdecoder_3to8
+Z0 !s110 1693819373
+!i10b 1
+!s100 7=FdVH010jQh?GGWj8;We3
+!s11b 2DdEMcDb<W3hUH<:z7zU20
+IgIKmf2=PA_fiD_VVUIR`23
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 d/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time42/sim
+Z3 w1693819227
+Z4 8/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time42/decoder_4to16.v
+Z5 F/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time42/decoder_4to16.v
+L0 2
+Z6 OP;L;2019.2;69
+r1
+!s85 0
+31
+Z7 !s108 1693819372.000000
+!s107 /home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time42/decoder_4to16.v|
+Z8 !s90 -reportprogress|300|-work|work|-stats=none|/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time42/decoder_4to16.v|
+!i113 1
+Z9 o-work work
+Z10 tCvgOpt 0
+vdecoder_4to16
+R0
+!i10b 1
+!s100 YFI`d7:Dan<Od3SaOD=U_3
+!s11b _nT1OUkKX@6=E_RNg5cMK3
+IQnY5HQBjU=W=VaSZ>]dde3
+R1
+R2
+R3
+R4
+R5
+L0 32
+R6
+r1
+!s85 0
+31
+R7
+Z11 !s107 /home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time42/decoder_4to16.v|
+R8
+!i113 1
+R9
+R10
+vtb_decoder_4to16
+R0
+!i10b 1
+!s100 5M=J9EcCbE0BgiJ?M8f[93
+!s11b o>gOfU?f7f4f`h?JC9R8m3
+I>Vz^VHiB0z03:@IY1HLF23
+R1
+R2
+R3
+R4
+R5
+L0 53
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 1
+R9
+R10

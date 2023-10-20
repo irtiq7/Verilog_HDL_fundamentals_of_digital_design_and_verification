@@ -1,0 +1,10 @@
+{/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time42/decoder_4to16.v} {1 {vlog -work work -stats=none {/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time42/decoder_4to16.v}
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module decoder_3to8
+-- Compiling module decoder_4to16
+-- Compiling module tb_decoder_4to16
+
+Top level modules:
+	tb_decoder_4to16
+
+} {} {}}

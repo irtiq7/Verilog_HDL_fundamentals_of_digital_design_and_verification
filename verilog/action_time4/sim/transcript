@@ -1,0 +1,1272 @@
+# Loading project project
+# Compile of literal_values.v was successful with warnings.
+vsim work.literal_values
+# vsim work.literal_values 
+# Start time: 13:48:32 on Aug 29,2023
+# //  ModelSim DE 2019.2 Apr 16 2019 Linux 5.15.0-78-generic
+# //
+# //  Copyright 1991-2019 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim DE and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.literal_values
+run -all
+# my_var = 137
+# my_var = 89
+# my_var = 10001001
+# my_var = 211
+# my_var = zzzz0001
+# my_var = 00000001
+# my_var = 11110000
+quit -sim
+# End time: 13:55:18 on Aug 29,2023, Elapsed time: 0:06:46
+# Errors: 38, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project easy_vectors_example
+# Compile of easy_vectors_example.v was successful.
+vsim work.easy_vectors_example
+# vsim work.easy_vectors_example 
+# Start time: 13:56:56 on Aug 29,2023
+# Loading work.easy_vectors_example
+vsim work.easy_vectors_example
+# End time: 13:57:27 on Aug 29,2023, Elapsed time: 0:00:31
+# Errors: 19, Warnings: 0
+# vsim work.easy_vectors_example 
+# Start time: 13:57:27 on Aug 29,2023
+# Loading work.easy_vectors_example
+run -all
+# PROC2 a=00000000, b=0000000, c=00, d=00000000
+# PROC2 a=00000001, b=0000000, c=00, d=00000000
+# PROC2 a=11110101, b=0000000, c=01, d=00000000
+# PROC2 a=11111000, b=0000000, c=10, d=00000000
+# PROC2 a=00001000, b=0000000, c=10, d=00000000
+# PROC2 a=00000000, b=0000000, c=00, d=00000000
+# PROC2 a=00000000, b=1111111, c=00, d=00000000
+# PROC2 a=00000000, b=1111111, c=00, d=11110000
+# PROC2 a=00001110, b=1111111, c=11, d=11110000
+# PROC2 a=00001110, b=1111111, c=11, d=11101111
+# PROC2 a=00001110, b=1111111, c=11, d=11110000
+add wave -position insertpoint sim:/easy_vectors_example/*
+run -all
+run -all
+run -all
+run -all
+run -all
+quit -sim
+# End time: 13:59:59 on Aug 29,2023, Elapsed time: 0:02:32
+# Errors: 19, Warnings: 0
+vsim work.easy_vectors_example
+# vsim work.easy_vectors_example 
+# Start time: 14:00:02 on Aug 29,2023
+# Loading work.easy_vectors_example
+run -all
+# PROC2 a=00000000, b=0000000, c=00, d=00000000
+# PROC2 a=00000001, b=0000000, c=00, d=00000000
+# PROC2 a=11110101, b=0000000, c=01, d=00000000
+# PROC2 a=11111000, b=0000000, c=10, d=00000000
+# PROC2 a=00001000, b=0000000, c=10, d=00000000
+# PROC2 a=00000000, b=0000000, c=00, d=00000000
+# PROC2 a=00000000, b=1111111, c=00, d=00000000
+# PROC2 a=00000000, b=1111111, c=00, d=11110000
+# PROC2 a=00001110, b=1111111, c=11, d=11110000
+# PROC2 a=00001110, b=1111111, c=11, d=11101111
+# PROC2 a=00001110, b=1111111, c=11, d=11110000
+add wave -position insertpoint  \
+sim:/easy_vectors_example/a \
+sim:/easy_vectors_example/b \
+sim:/easy_vectors_example/d \
+sim:/easy_vectors_example/c
+run -all
+run -all
+add wave -position insertpoint  \
+sim:/easy_vectors_example/a \
+sim:/easy_vectors_example/b \
+sim:/easy_vectors_example/d \
+sim:/easy_vectors_example/c
+run -all
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# PROC2 a=00000000, b=0000000, c=00, d=00000000
+# PROC2 a=00000001, b=0000000, c=00, d=00000000
+# PROC2 a=11110101, b=0000000, c=01, d=00000000
+# PROC2 a=11111000, b=0000000, c=10, d=00000000
+# PROC2 a=00001000, b=0000000, c=10, d=00000000
+# PROC2 a=00000000, b=0000000, c=00, d=00000000
+# PROC2 a=00000000, b=1111111, c=00, d=00000000
+# PROC2 a=00000000, b=1111111, c=00, d=11110000
+# PROC2 a=00001110, b=1111111, c=11, d=11110000
+# PROC2 a=00001110, b=1111111, c=11, d=11101111
+# PROC2 a=00001110, b=1111111, c=11, d=11110000
+quit -sim
+# End time: 14:07:39 on Aug 29,2023, Elapsed time: 0:07:37
+# Errors: 19, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project bitwise_operators
+# Compile of reduction_operators.v was successful.
+vsim work.reduction_operators
+# vsim work.reduction_operators 
+# Start time: 14:08:57 on Aug 29,2023
+# Loading work.reduction_operators
+add wave -position end  sim:/reduction_operators/my_val1
+add wave -position end  sim:/reduction_operators/my_val2
+add wave -position end  sim:/reduction_operators/result
+run -all
+# MON my_val1=11111, my_val2=101011110, result=1
+# MON my_val1=11111, my_val2=101011110, result=0
+# MON my_val1=11111, my_val2=101011110, result=1
+# MON my_val1=11111, my_val2=101011110, result=0
+# MON my_val1=11111, my_val2=101011110, result=1
+# MON my_val1=11111, my_val2=101011110, result=0
+# MON my_val1=11111, my_val2=101011110, result=1
+# MON my_val1=11111, my_val2=101011110, result=0
+quit -sim
+# End time: 14:21:58 on Aug 29,2023, Elapsed time: 0:13:01
+# Errors: 28, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project bitwise_operators
+# Compile of bitwise_operators.v was successful.
+vsim work.bitwise_operators
+# vsim work.bitwise_operators 
+# Start time: 14:24:20 on Aug 29,2023
+# Loading work.bitwise_operators
+add wave -position end  sim:/bitwise_operators/x
+add wave -position end  sim:/bitwise_operators/y
+add wave -position end  sim:/bitwise_operators/result
+run -all
+# MON x=000000, y=000000, result=000000
+# MON x=000101, y=110001, result=000001
+# MON x=000101, y=110001, result=111110
+# MON x=100101, y=011011, result=111111
+# MON x=100101, y=011011, result=000000
+# MON x=010110, y=011011, result=001101
+# MON x=010110, y=011011, result=110010
+# MON x=011011, y=011011, result=111111
+quit -sim
+# End time: 14:32:09 on Aug 29,2023, Elapsed time: 0:07:49
+# Errors: 35, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project reduction_operators
+# Compile of reduction_operators.v was successful.
+vsim work.reduction_operators
+# vsim work.reduction_operators 
+# Start time: 14:33:15 on Aug 29,2023
+# Loading work.reduction_operators
+add wave -position end  sim:/reduction_operators/my_val1
+add wave -position end  sim:/reduction_operators/my_val2
+add wave -position end  sim:/reduction_operators/result
+run -all
+# MON my_val1=11111, my_val2=101011110, result=1
+# MON my_val1=11111, my_val2=101011110, result=0
+# MON my_val1=11111, my_val2=101011110, result=1
+# MON my_val1=11111, my_val2=101011110, result=0
+# MON my_val1=11111, my_val2=101011110, result=1
+# MON my_val1=11111, my_val2=101011110, result=0
+# MON my_val1=11111, my_val2=101011110, result=1
+# MON my_val1=11111, my_val2=101011110, result=0
+quit -sim
+# End time: 14:51:27 on Aug 29,2023, Elapsed time: 0:18:12
+# Errors: 40, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project logical_operators
+# Compile of logical_operators.v was successful.
+vsim work.logical_operators
+# vsim work.logical_operators 
+# Start time: 14:52:50 on Aug 29,2023
+# Loading work.logical_operators
+add wave -position end  sim:/logical_operators/my_val1
+add wave -position end  sim:/logical_operators/my_val2
+add wave -position end  sim:/logical_operators/result
+run -all
+# MON my_val1=111, my_val2=0000, result=0
+# MON my_val1=111, my_val2=0000, result=1
+# MON my_val1=111, my_val2=0000, result=0
+# MON my_val1=111, my_val2=0000, result=1
+# MON my_val1=z0x, my_val2=0000, result=x
+# MON my_val1=z0x, my_val2=0000, result=0
+quit -sim
+# End time: 14:55:01 on Aug 29,2023, Elapsed time: 0:02:11
+# Errors: 33, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project logical_operators_usage
+# Compile of logical_operators_usage.v was successful.
+vsim work.logical_operators_usage
+# vsim work.logical_operators_usage 
+# Start time: 14:56:24 on Aug 29,2023
+# Loading work.logical_operators_usage
+add wave -position end  sim:/logical_operators_usage/my_val1
+add wave -position end  sim:/logical_operators_usage/my_val2
+run -all
+# :( I expected my_val1=0 but my_val1=111
+# GREAT! my_val2=0000
+# GREAT! my_val1=111 my_val2=0000
+# WHILE_LOOOP my_val2= 0
+# WHILE_LOOOP my_val2= 1
+# WHILE_LOOOP my_val2= 2
+quit -sim
+# End time: 15:11:35 on Aug 29,2023, Elapsed time: 0:15:11
+# Errors: 33, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project arithmatic_operator
+# Compile of math_operators.v was successful.
+vsim work.math_operators
+# vsim work.math_operators 
+# Start time: 15:12:42 on Aug 29,2023
+# Loading work.math_operators
+add wave -position end  sim:/math_operators/a
+add wave -position end  sim:/math_operators/b
+add wave -position end  sim:/math_operators/result
+run -all
+# MON a = 2, b = 3, result = 8
+# MON a = 2, b = 3, result = 9
+# MON a = 177, b = 12, result = 2124
+# MON a = 199, b = 19, result = 10
+# MON a = 199, b = 19, result = 9
+# MON a = 199, b = -19, result = 9
+# MON a = 4199, b = -2319, result = 1880
+# MON a = 19234, b = -16, result = 19250
+# MON a = 919234, b = 13, result = 493250
+quit -sim
+# End time: 15:16:27 on Aug 29,2023, Elapsed time: 0:03:45
+# Errors: 33, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project shift_operators
+# Compile of shift_operators.v was successful.
+vsim work.shift_operators
+# vsim work.shift_operators 
+# Start time: 15:17:44 on Aug 29,2023
+# Loading work.shift_operators
+add wave -position end  sim:/shift_operators/a
+add wave -position end  sim:/shift_operators/b
+run -all
+# MON a = 010110101101, b = 101101011010, a = 1453, b = 2906
+# MON a = 010110101101, b = 000000000000, a = 1453, b = 0
+# MON a = 010110101101, b = 101101011010, a = 1453, b = 2906
+# MON a = 010110101101, b = 010110100000, a = 1453, b = 1440
+# MON a = 010110101101, b = 000101101000, a = 1453, b = 360
+# MON a = 010110101101, b = 000000000010, a = 1453, b = 2
+# MON a = 010110101101, b = 000000000100, a = 1453, b = 4
+# MON a = 010110101101, b = 000000101101, a = 1453, b = 45
+quit -sim
+# End time: 15:19:55 on Aug 29,2023, Elapsed time: 0:02:11
+# Errors: 33, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project relational_operators
+# Compile of relational_operators.v was successful.
+vsim work.relational_operators
+# vsim work.relational_operators 
+# Start time: 15:20:44 on Aug 29,2023
+# Loading work.relational_operators
+add wave -position end  sim:/relational_operators/result
+run -all
+# MON result = x
+# MON result = 0
+# MON result = 1
+# MON result = 0
+# MON result = 1
+# MON result = x
+# MON result = 1
+quit -sim
+# End time: 15:23:41 on Aug 29,2023, Elapsed time: 0:02:57
+# Errors: 33, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project equality_operators
+# Compile of equality_operators.v was successful.
+vsim work.equality_operators
+# vsim work.equality_operators 
+# Start time: 15:24:49 on Aug 29,2023
+# Loading work.equality_operators
+add wave -position end  sim:/equality_operators/result
+run -all
+# result = 0
+# result = 1
+# result = x
+# result = 0
+# result = 0
+# result = x
+# result = 1
+# result = x
+# result = x
+# result = 0
+quit -sim
+# End time: 15:32:13 on Aug 29,2023, Elapsed time: 0:07:24
+# Errors: 33, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project conditional_operator
+# Compile of conditional_operators.v was successful.
+vsim work.conditional_operator
+# vsim work.conditional_operator 
+# Start time: 15:33:09 on Aug 29,2023
+# Loading work.conditional_operator
+add wave -position end  sim:/conditional_operator/result
+add wave -position end  sim:/conditional_operator/a
+add wave -position end  sim:/conditional_operator/b
+add wave -position end  sim:/conditional_operator/c
+run -all
+# result = 1
+# result = 1
+# result = -99
+# c = z
+quit -sim
+# End time: 15:39:49 on Aug 29,2023, Elapsed time: 0:06:40
+# Errors: 33, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project concatenation_operator
+# Compile of concatention_operator.v was successful.
+vsim work.concatenation_operator
+# vsim work.concatenation_operator 
+# Start time: 15:41:31 on Aug 29,2023
+# Loading work.concatenation_operator
+add wave -position end  sim:/concatenation_operator/a
+add wave -position end  sim:/concatenation_operator/upper_nibble
+add wave -position end  sim:/concatenation_operator/lower_nibble
+run -all
+# a = 11100001
+# a = 00011000
+# a = 10001010
+# a = 00101001
+# upper_nibble = 0010, lower_nibble = 1001
+# upper_nibble = 1001, lower_nibble = 0010
+# a = 10010010
+quit -sim
+# End time: 15:44:58 on Aug 29,2023, Elapsed time: 0:03:27
+# Errors: 33, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project replication_operator
+# Compile of replication_operator.v was successful.
+vsim work.replication_operator
+# vsim work.replication_operator 
+# Start time: 15:45:56 on Aug 29,2023
+# Loading work.replication_operator
+add wave -position end  sim:/replication_operator/a
+add wave -position end  sim:/replication_operator/b
+run -all
+# a = 10101010
+# a = 1x0z1x0z
+# a = 10101111
+# b = 01100110011001100110011001100110
+# b = 0111000101110001xz01xz01xz01xz01
+# b = 10101010101010101010101010101010
+quit -sim
+# End time: 15:51:07 on Aug 29,2023, Elapsed time: 0:05:11
+# Errors: 33, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project operators_precedence
+# Compile of operators_precedence.v was successful.
+vsim work.operators_precedence
+# vsim work.operators_precedence 
+# Start time: 15:52:10 on Aug 29,2023
+# Loading work.operators_precedence
+add wave -position end  sim:/operators_precedence/a
+add wave -position end  sim:/operators_precedence/b
+run -continue
+run -all
+# a = 0001
+# a = 0001
+# a = 0001
+# b = 40
+# b = 1
+# b = 2
+quit -sim
+# End time: 09:52:23 on Aug 31,2023, Elapsed time: 42:00:13
+# Errors: 33, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project addrbit
+# Compile of adder8bit.v was successful.
+# Compile of my_first_testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.my_first_testbench
+# vsim work.my_first_testbench 
+# Start time: 09:53:48 on Aug 31,2023
+# Loading work.my_first_testbench
+# Loading work.adder8bit
+add wave -position end  sim:/my_first_testbench/a
+add wave -position end  sim:/my_first_testbench/b
+add wave -position end  sim:/my_first_testbench/sum
+run -all
+# a=  0, b=  0, sum=  0
+# a=  1, b=  0, sum=  1
+# a=  1, b= 10, sum= 11
+# a=  3, b= 99, sum=102
+# a=101, b= 66, sum=167
+# a=255, b=255, sum=510
+quit -sim
+# End time: 10:01:49 on Aug 31,2023, Elapsed time: 0:08:01
+# Errors: 33, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project waveform
+# Compile of waveforms.v was successful.
+vsim work.waveforms
+# vsim work.waveforms 
+# Start time: 10:02:39 on Aug 31,2023
+# Loading work.waveforms
+add wave -position end  sim:/waveforms/sig1
+add wave -position end  sim:/waveforms/sig2
+run -all
+quit -sim
+# End time: 10:19:34 on Aug 31,2023, Elapsed time: 0:16:55
+# Errors: 33, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project halfaddr
+# Compile of half_adder_structural.v was successful.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 10:22:29 on Aug 31,2023
+# Loading work.testbench
+# Loading work.half_adder_structural
+add wave -position end  sim:/testbench/a
+add wave -position end  sim:/testbench/b
+add wave -position end  sim:/testbench/sum
+add wave -position end  sim:/testbench/carry
+run -all
+# a=x, b=x, sum=x, carry=x
+# a=0, b=0, sum=0, carry=0
+# a=0, b=1, sum=1, carry=0
+# a=1, b=0, sum=1, carry=0
+# a=1, b=1, sum=0, carry=1
+# a=0, b=0, sum=0, carry=0
+# a=1, b=1, sum=0, carry=1
+quit -sim
+# End time: 10:25:05 on Aug 31,2023, Elapsed time: 0:02:36
+# Errors: 33, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project halfaddrDataflow
+# Compile of half_adder_structural.v was successful.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 10:26:05 on Aug 31,2023
+# Loading work.testbench
+# Loading work.half_adder_structural
+add wave -position end  sim:/testbench/a
+add wave -position end  sim:/testbench/b
+add wave -position end  sim:/testbench/sum
+add wave -position end  sim:/testbench/carry
+run -all
+# a=x, b=x, sum=x, carry=x
+# a=0, b=0, sum=0, carry=0
+# a=0, b=1, sum=1, carry=0
+# a=1, b=0, sum=1, carry=0
+# a=1, b=1, sum=0, carry=1
+# a=0, b=0, sum=0, carry=0
+# a=1, b=1, sum=0, carry=1
+quit -sim
+# End time: 10:32:19 on Aug 31,2023, Elapsed time: 0:06:14
+# Errors: 33, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project procedures
+# Compile of procedures_updated.v was successful.
+vsim work.procedures
+# vsim work.procedures 
+# Start time: 10:34:01 on Aug 31,2023
+# Loading work.procedures
+add wave -position end  sim:/procedures/var1
+add wave -position end  sim:/procedures/var2
+add wave -position end  sim:/procedures/sum
+add wave -position end  sim:/procedures/product
+run -all
+#                    1 MON_VAR1: var1 = 10
+#                    1 MON_ALL: var1 = 10, var2 = 99, sum = 109, product = x
+#                    1 MON_ALL: var1 = 10, var2 = 99, sum = 109, product = 990
+#                    2 MON_ALL: var1 = 10, var2 = 33, sum = 43, product = 990
+#                    2 MON_ALL: var1 = 10, var2 = 33, sum = 43, product = 330
+#                    3 MON_VAR1: var1 = 132
+#                    3 MON_ALL: var1 = 132, var2 = 33, sum = 165, product = 330
+#                    3 MON_ALL: var1 = 132, var2 = 33, sum = 165, product = 4356
+#                    4 MON_ALL: var1 = 132, var2 = 4, sum = 136, product = 4356
+#                    4 MON_ALL: var1 = 132, var2 = 4, sum = 136, product = 528
+#                    5 MON_ALL: var1 = 132, var2 = 5, sum = 137, product = 528
+#                    5 MON_ALL: var1 = 132, var2 = 5, sum = 137, product = 660
+quit -sim
+# End time: 10:38:35 on Aug 31,2023, Elapsed time: 0:04:34
+# Errors: 33, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project halfAdderBehavioral
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project halfAdderBehavioral
+# Compile of half_adder_behavioral.v was successful.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 10:42:04 on Aug 31,2023
+# Loading work.testbench
+# Loading work.half_adder_behavioral
+add wave -position end  sim:/testbench/a
+add wave -position end  sim:/testbench/b
+add wave -position end  sim:/testbench/sum
+add wave -position end  sim:/testbench/carry
+run -all
+# a=x, b=x, sum=x, carry=x
+# a=0, b=0, sum=0, carry=0
+# a=0, b=1, sum=1, carry=0
+# a=1, b=0, sum=1, carry=0
+# a=1, b=1, sum=0, carry=1
+# a=0, b=0, sum=0, carry=0
+# a=1, b=1, sum=0, carry=1
+quit -sim
+# End time: 10:44:34 on Aug 31,2023, Elapsed time: 0:02:30
+# Errors: 33, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project full_adder_structure
+# Compile of full_adder_structural.v was successful.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 10:53:06 on Aug 31,2023
+# Loading work.testbench
+# Loading work.full_adder_structural
+# Loading work.half_adder_structural
+add wave -position end  sim:/testbench/a
+add wave -position end  sim:/testbench/b
+add wave -position end  sim:/testbench/cin
+add wave -position end  sim:/testbench/sum
+add wave -position end  sim:/testbench/cout
+run -all
+# a=x, b=x, carry_in=x, sum=x, carry_out=x
+# a=0, b=0, carry_in=0, sum=0, carry_out=0
+# a=0, b=0, carry_in=1, sum=1, carry_out=0
+# a=0, b=1, carry_in=0, sum=1, carry_out=0
+# a=0, b=1, carry_in=1, sum=0, carry_out=1
+# a=1, b=0, carry_in=0, sum=1, carry_out=0
+# a=1, b=0, carry_in=1, sum=0, carry_out=1
+# a=1, b=1, carry_in=0, sum=0, carry_out=1
+# a=1, b=1, carry_in=1, sum=1, carry_out=1
+quit -sim
+# End time: 11:02:10 on Aug 31,2023, Elapsed time: 0:09:04
+# Errors: 33, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project full_addr_dataflow
+# Compile of full_adder_dataflow.v was successful.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 11:03:12 on Aug 31,2023
+# Loading work.testbench
+# Loading work.full_adder_dataflow
+add wave -position end  sim:/testbench/a
+add wave -position end  sim:/testbench/b
+add wave -position end  sim:/testbench/cin
+add wave -position end  sim:/testbench/sum
+add wave -position end  sim:/testbench/cout
+run -all
+# a=x, b=x, carry_in=x, sum=x, carry_out=x
+# a=0, b=0, carry_in=0, sum=0, carry_out=0
+# a=0, b=0, carry_in=1, sum=1, carry_out=0
+# a=0, b=1, carry_in=0, sum=1, carry_out=0
+# a=0, b=1, carry_in=1, sum=0, carry_out=1
+# a=1, b=0, carry_in=0, sum=1, carry_out=0
+# a=1, b=0, carry_in=1, sum=0, carry_out=1
+# a=1, b=1, carry_in=0, sum=0, carry_out=1
+# a=1, b=1, carry_in=1, sum=1, carry_out=1
+quit -sim
+# End time: 11:08:46 on Aug 31,2023, Elapsed time: 0:05:34
+# Errors: 33, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project bit_full_adder_structure
+# Compile of ripple_adder_4bit_structural.v was successful.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 11:10:46 on Aug 31,2023
+# Loading work.testbench
+# Loading work.ripple_adder_4bit_structural
+# Loading work.full_adder_structural
+# Loading work.half_adder_structural
+add wave -position end  sim:/testbench/a
+add wave -position end  sim:/testbench/b
+add wave -position end  sim:/testbench/cin
+add wave -position end  sim:/testbench/sum
+add wave -position end  sim:/testbench/cout
+add wave -position end  sim:/testbench/i
+add wave -position end  sim:/testbench/j
+run -all
+# a=xxxx, b=xxxx, carry_in=x, sum=x, carry_out=x
+# a=0000, b=0000, carry_in=0, sum=0, carry_out=0
+# a=0000, b=0000, carry_in=1, sum=1, carry_out=0
+# a=0001, b=0001, carry_in=0, sum=2, carry_out=0
+# a=0001, b=0001, carry_in=1, sum=3, carry_out=0
+# a=0011, b=0110, carry_in=0, sum=9, carry_out=0
+# a=0000, b=0000, carry_in=0, sum=0, carry_out=0
+# a=0000, b=0001, carry_in=0, sum=1, carry_out=0
+# a=0001, b=0000, carry_in=0, sum=1, carry_out=0
+# a=0001, b=0001, carry_in=0, sum=2, carry_out=0
+quit -sim
+# End time: 11:14:55 on Aug 31,2023, Elapsed time: 0:04:09
+# Errors: 33, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project 4bit_adder_dataflow
+# Compile of ripple_adder_4bit_dataflow.v was successful.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 11:16:31 on Aug 31,2023
+# Loading work.testbench
+# Loading work.ripple_adder_4bit_dataflow
+# Loading work.full_adder_dataflow
+add wave -position end  sim:/testbench/a
+add wave -position end  sim:/testbench/b
+add wave -position end  sim:/testbench/cin
+add wave -position end  sim:/testbench/sum
+add wave -position end  sim:/testbench/cout
+add wave -position end  sim:/testbench/i
+add wave -position end  sim:/testbench/j
+run -all
+# a=xxxx, b=xxxx, carry_in=x, sum=x, carry_out=x
+# a=0000, b=0000, carry_in=0, sum=0, carry_out=0
+# a=0000, b=0000, carry_in=1, sum=1, carry_out=0
+# a=0001, b=0001, carry_in=0, sum=2, carry_out=0
+# a=0001, b=0001, carry_in=1, sum=3, carry_out=0
+# a=0011, b=0110, carry_in=0, sum=9, carry_out=0
+# a=0000, b=0000, carry_in=0, sum=0, carry_out=0
+# a=0000, b=0001, carry_in=0, sum=1, carry_out=0
+# a=0001, b=0000, carry_in=0, sum=1, carry_out=0
+# a=0001, b=0001, carry_in=0, sum=2, carry_out=0
+quit -sim
+# End time: 11:19:26 on Aug 31,2023, Elapsed time: 0:02:55
+# Errors: 33, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project adder_bit_behavioural
+# Compile of adder_4bit_behavioral.v was successful.
+vsim work.tb_adder_4bit_behav
+# vsim work.tb_adder_4bit_behav 
+# Start time: 11:21:13 on Aug 31,2023
+# Loading work.tb_adder_4bit_behav
+# Loading work.adder_4bit_behavioral
+add wave -position end  sim:/tb_adder_4bit_behav/LOOP_LIMIT
+add wave -position end  sim:/tb_adder_4bit_behav/a
+add wave -position end  sim:/tb_adder_4bit_behav/b
+add wave -position end  sim:/tb_adder_4bit_behav/cin
+add wave -position end  sim:/tb_adder_4bit_behav/sum
+add wave -position end  sim:/tb_adder_4bit_behav/cout
+add wave -position end  sim:/tb_adder_4bit_behav/i
+add wave -position end  sim:/tb_adder_4bit_behav/j
+run -all
+#                    1 a=4, b=4, carry_in=0, sum=8, carry_out=0
+#                    2 a=4, b=3, carry_in=0, sum=7, carry_out=0
+#                    3 a=4, b=2, carry_in=0, sum=6, carry_out=0
+#                    4 a=4, b=1, carry_in=0, sum=5, carry_out=0
+#                    5 a=3, b=4, carry_in=1, sum=8, carry_out=0
+#                    6 a=3, b=3, carry_in=1, sum=7, carry_out=0
+#                    7 a=3, b=2, carry_in=1, sum=6, carry_out=0
+#                    8 a=3, b=1, carry_in=1, sum=5, carry_out=0
+#                    9 a=2, b=4, carry_in=0, sum=6, carry_out=0
+#                   10 a=2, b=3, carry_in=0, sum=5, carry_out=0
+#                   11 a=2, b=2, carry_in=0, sum=4, carry_out=0
+#                   12 a=2, b=1, carry_in=0, sum=3, carry_out=0
+#                   13 a=1, b=4, carry_in=1, sum=6, carry_out=0
+#                   14 a=1, b=3, carry_in=1, sum=5, carry_out=0
+#                   15 a=1, b=2, carry_in=1, sum=4, carry_out=0
+#                   16 a=1, b=1, carry_in=1, sum=3, carry_out=0
+# ** Note: $stop    : /home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time29/adder_4bit_behavioral.v(49)
+#    Time: 26 us  Iteration: 0  Instance: /tb_adder_4bit_behav
+# Break in Module tb_adder_4bit_behav at /home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time29/adder_4bit_behavioral.v line 49
+quit -sim
+# End time: 09:55:17 on Sep 04,2023, Elapsed time: 94:34:04
+# Errors: 107, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project built-in_gates
+# Compile of built_in_gates.v was successful.
+# Compile of tb_gates.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_gates
+# vsim work.tb_gates 
+# Start time: 09:56:28 on Sep 04,2023
+# Loading work.tb_gates
+# Loading work.built_in_gates
+add wave -position end  sim:/tb_gates/a
+add wave -position end  sim:/tb_gates/b
+add wave -position end  sim:/tb_gates/c
+add wave -position end  sim:/tb_gates/d
+add wave -position end  sim:/tb_gates/o1
+add wave -position end  sim:/tb_gates/o2
+add wave -position end  sim:/tb_gates/o3
+add wave -position end  sim:/tb_gates/o4
+add wave -position end  sim:/tb_gates/o5
+add wave -position end  sim:/tb_gates/o6
+add wave -position end  sim:/tb_gates/o7
+add wave -position end  sim:/tb_gates/o8
+add wave -position end  sim:/tb_gates/o9
+add wave -position end  sim:/tb_gates/o10
+run -all
+quit -sim
+# End time: 09:58:02 on Sep 04,2023, Elapsed time: 0:01:34
+# Errors: 33, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project 1bit_mux
+# Compile of mux_1bit.v was successful.
+# Compile of tb_mux.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_mux
+# vsim work.tb_mux 
+# Start time: 10:02:34 on Sep 04,2023
+# Loading work.tb_mux
+# Loading work.mux_1bit
+add wave -position end  sim:/tb_mux/a
+add wave -position end  sim:/tb_mux/b
+add wave -position end  sim:/tb_mux/x
+add wave -position end  sim:/tb_mux/y
+run -all
+# Verilog is cool
+quit -sim
+# End time: 10:04:47 on Sep 04,2023, Elapsed time: 0:02:13
+# Errors: 33, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project 1bit_mux
+# Compile of demux_1bit.v was successful.
+# Compile of tb_demux.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_demux
+# vsim work.tb_demux 
+# Start time: 10:09:30 on Sep 04,2023
+# Loading work.tb_demux
+# Loading work.demux_1bit
+add wave -position end  sim:/tb_demux/x
+add wave -position end  sim:/tb_demux/sel
+add wave -position end  sim:/tb_demux/y0
+add wave -position end  sim:/tb_demux/y1
+run -all
+quit -sim
+# End time: 10:12:57 on Sep 04,2023, Elapsed time: 0:03:27
+# Errors: 53, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project tri-state_buffer
+# Compile of tb_tristate.v was successful.
+# Compile of tristate_buffer_1bit.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_tristate
+# vsim work.tb_tristate 
+# Start time: 10:15:02 on Sep 04,2023
+# Loading work.tb_tristate
+# Loading work.tristate_buffer_1bit
+add wave -position end  sim:/tb_tristate/din
+add wave -position end  sim:/tb_tristate/sel
+add wave -position end  sim:/tb_tristate/dout
+run -all
+#  din = x, sel = x, dout = x
+#  din = 0, sel = 0, dout = z
+#  din = 1, sel = 0, dout = z
+#  din = 0, sel = 1, dout = 0
+#  din = 1, sel = 0, dout = z
+#  din = 1, sel = 1, dout = 1
+#  din = 0, sel = 1, dout = 0
+# ** Note: $stop    : /home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time33/tb_tristate.v(27)
+#    Time: 12 us  Iteration: 0  Instance: /tb_tristate
+# Break in Module tb_tristate at /home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time33/tb_tristate.v line 27
+quit -sim
+# End time: 10:16:25 on Sep 04,2023, Elapsed time: 0:01:23
+# Errors: 53, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project mux_tri-state
+# Compile of mux_tristate.v was successful.
+vsim work.tb_mux_tristate
+# vsim work.tb_mux_tristate 
+# Start time: 10:19:02 on Sep 04,2023
+# Loading work.tb_mux_tristate
+# Loading work.mux_tristate
+add wave -position end  sim:/tb_mux_tristate/a
+add wave -position end  sim:/tb_mux_tristate/b
+add wave -position end  sim:/tb_mux_tristate/sel
+add wave -position end  sim:/tb_mux_tristate/dout
+run -continue
+run -all
+#  a = x, b = x, sel = x, dout = x
+#  a = 0, b = 0, sel = 0, dout = 0
+#  a = 1, b = 0, sel = 0, dout = 1
+#  a = 1, b = 0, sel = 1, dout = 0
+#  a = 0, b = 1, sel = 1, dout = 1
+#  a = 0, b = 0, sel = 0, dout = 0
+quit -sim
+# End time: 10:19:34 on Sep 04,2023, Elapsed time: 0:00:32
+# Errors: 48, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project 1bit_comparator
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project 1bit_comparator
+# Compile of comparator_1bit.v was successful.
+vsim work.tb_comp
+# vsim work.tb_comp 
+# Start time: 10:21:58 on Sep 04,2023
+# Loading work.tb_comp
+# Loading work.comparator_1bit
+add wave -position end  sim:/tb_comp/a
+add wave -position end  sim:/tb_comp/b
+add wave -position end  sim:/tb_comp/smaller
+add wave -position end  sim:/tb_comp/greater
+add wave -position end  sim:/tb_comp/equal
+run -all
+#  a = x, b = x, smaller = x, equal = x, greater = x
+#  a = 0, b = 0, smaller = 0, equal = 1, greater = 0
+#  a = 1, b = 0, smaller = 0, equal = 0, greater = 1
+#  a = 0, b = 1, smaller = 1, equal = 0, greater = 0
+#  a = 1, b = 1, smaller = 0, equal = 1, greater = 0
+# ** Note: $stop    : /home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time35/comparator_1bit.v(48)
+#    Time: 6 us  Iteration: 0  Instance: /tb_comp
+# Break in Module tb_comp at /home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time35/comparator_1bit.v line 48
+quit -sim
+# End time: 10:26:32 on Sep 04,2023, Elapsed time: 0:04:34
+# Errors: 48, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project continuous_assignment
+# Compile of some_logic.v was successful.
+vsim work.tb_logic
+# vsim work.tb_logic 
+# Start time: 10:30:18 on Sep 04,2023
+# Loading work.tb_logic
+# Loading work.some_logic
+add wave -position end  sim:/tb_logic/a
+add wave -position end  sim:/tb_logic/b
+add wave -position end  sim:/tb_logic/c
+run -all
+#  a = x, b = x, c = x
+#  a = 0, b = 0, c = 0
+#  a = 1, b = 0, c = 1
+#  a = 0, b = 1, c = 1
+#  a = 1, b = 1, c = 1
+quit -sim
+# End time: 10:32:19 on Sep 04,2023, Elapsed time: 0:02:01
+# Errors: 48, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project addr_tree
+# Compile of adders3.v was successful.
+vsim work.tb_adders_tree
+# vsim work.tb_adders_tree 
+# Start time: 10:34:46 on Sep 04,2023
+# Loading work.tb_adders_tree
+# Loading work.adders_tree
+add wave -position end  sim:/tb_adders_tree/a
+add wave -position end  sim:/tb_adders_tree/b
+add wave -position end  sim:/tb_adders_tree/c
+add wave -position end  sim:/tb_adders_tree/d
+add wave -position end  sim:/tb_adders_tree/sum1
+add wave -position end  sim:/tb_adders_tree/sum2
+add wave -position end  sim:/tb_adders_tree/sum3
+run -all
+#  a =  x, b =  x, c =   x, d =   x, sum1 =  x, sum2 =   x, sum3 =    x
+#  a =  0, b =  3, c =   1, d = 255, sum1 =  3, sum2 = 256, sum3 =  259
+#  a = 10, b = 13, c =   9, d =  10, sum1 = 23, sum2 =  19, sum3 =   42
+#  a = 15, b = 15, c = 109, d =  37, sum1 = 30, sum2 = 146, sum3 =  176
+#  a =  0, b =  9, c =  45, d =  45, sum1 =  9, sum2 =  90, sum3 =   99
+quit -sim
+# End time: 10:39:19 on Sep 04,2023, Elapsed time: 0:04:33
+# Errors: 48, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project tree_addr_procedural
+# Compile of adders3_procedural.v was successful.
+vsim work.tb_adders3_proc
+# vsim work.tb_adders3_proc 
+# Start time: 10:49:32 on Sep 04,2023
+# Loading work.tb_adders3_proc
+# Loading work.adders3_procedural
+add wave -position end  sim:/tb_adders3_proc/a
+add wave -position end  sim:/tb_adders3_proc/b
+add wave -position end  sim:/tb_adders3_proc/c
+add wave -position end  sim:/tb_adders3_proc/d
+add wave -position end  sim:/tb_adders3_proc/sum1
+add wave -position end  sim:/tb_adders3_proc/sum2
+add wave -position end  sim:/tb_adders3_proc/sum3
+run -all
+#  a =  x, b =  x, c =   x, d =   x, sum1 =  x, sum2 =   x, sum3 =    x
+#  a =  0, b =  3, c =   1, d = 255, sum1 =  3, sum2 = 256, sum3 =  259
+#  a = 10, b = 13, c =   9, d =  10, sum1 = 23, sum2 =  19, sum3 =   42
+#  a = 15, b = 15, c = 109, d =  37, sum1 = 30, sum2 = 146, sum3 =  176
+#  a =  0, b =  9, c =  45, d =  45, sum1 =  9, sum2 =  90, sum3 =   99
+quit -sim
+# End time: 10:51:34 on Sep 04,2023, Elapsed time: 0:02:02
+# Errors: 48, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project nbit_addr
+# Compile of adder_nbit.v was successful.
+vsim work.tb_adder_nbit
+# vsim work.tb_adder_nbit 
+# Start time: 10:54:39 on Sep 04,2023
+# Loading work.tb_adder_nbit
+# Loading work.adder_nbit
+add wave -position end  sim:/tb_adder_nbit/ADDER_WIDTH
+add wave -position end  sim:/tb_adder_nbit/a
+add wave -position end  sim:/tb_adder_nbit/b
+add wave -position end  sim:/tb_adder_nbit/sum
+run -all
+#                    0 a =    x, b =    x, sum =    x
+#                    1 a =    0, b =    0, sum =    0
+#                    3 a =    1, b =   99, sum =  100
+#                    4 a =   33, b =   66, sum =   99
+#                    5 a =  100, b =   47, sum =  147
+# ** Note: $stop    : /home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time39/adder_nbit.v(45)
+#    Time: 6 us  Iteration: 0  Instance: /tb_adder_nbit
+# Break in Module tb_adder_nbit at /home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time39/adder_nbit.v line 45
+quit -sim
+# End time: 10:59:54 on Sep 04,2023, Elapsed time: 0:05:15
+# Errors: 48, Warnings: 0
+vsim work.tb_adder_nbit
+# vsim work.tb_adder_nbit 
+# Start time: 10:59:58 on Sep 04,2023
+# Loading work.tb_adder_nbit
+# Loading work.adder_nbit
+quit -sim
+# End time: 11:00:31 on Sep 04,2023, Elapsed time: 0:00:33
+# Errors: 48, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project comparator_nbit
+# Compile of comparator_nbit.v was successful.
+vsim work.tb_comparator_nbit
+# vsim work.tb_comparator_nbit 
+# Start time: 11:04:05 on Sep 04,2023
+# Loading work.tb_comparator_nbit
+# Loading work.comparator_nbit
+add wave -position end  sim:/tb_comparator_nbit/CMP_WIDTH
+add wave -position end  sim:/tb_comparator_nbit/a
+add wave -position end  sim:/tb_comparator_nbit/b
+add wave -position end  sim:/tb_comparator_nbit/smaller
+add wave -position end  sim:/tb_comparator_nbit/equal
+add wave -position end  sim:/tb_comparator_nbit/greater
+run -all
+#                    0 a =    x, b =    x, smaller = x, equal = x, greater = x
+#                    1 a =    0, b =    0, smaller = 0, equal = 1, greater = 0
+#                    3 a =    5, b =   99, smaller = 1, equal = 0, greater = 0
+#                    4 a =   66, b =   66, smaller = 0, equal = 1, greater = 0
+#                    5 a =  100, b =   47, smaller = 0, equal = 0, greater = 1
+# ** Note: $stop    : /home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time40/comparator_nbit.v(55)
+#    Time: 6 us  Iteration: 0  Instance: /tb_comparator_nbit
+# Break in Module tb_comparator_nbit at /home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time40/comparator_nbit.v line 55
+quit -sim
+# End time: 11:08:58 on Sep 04,2023, Elapsed time: 0:04:53
+# Errors: 54, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project decoder_nbit
+# Compile of decoder_nbit.v was successful.
+vsim work.tb_decoder_nbit
+# vsim work.tb_decoder_nbit 
+# Start time: 11:09:58 on Sep 04,2023
+# Loading work.tb_decoder_nbit
+# Loading work.decoder_nbit
+add wave -position end  sim:/tb_decoder_nbit/DEC_WIDTH
+add wave -position end  sim:/tb_decoder_nbit/a
+add wave -position end  sim:/tb_decoder_nbit/enable
+add wave -position end  sim:/tb_decoder_nbit/y
+add wave -position end  sim:/tb_decoder_nbit/i
+run -all
+#                    0 a = x, enable = x, y = xxxxxxxx
+#                    1 a = 0, enable = 0, y = 00000000
+#                    2 a = 0, enable = 1, y = 00000001
+#                    3 a = 1, enable = 1, y = 00000010
+#                    4 a = 2, enable = 1, y = 00000100
+#                    5 a = 3, enable = 1, y = 00001000
+#                    6 a = 4, enable = 1, y = 00010000
+#                    7 a = 5, enable = 1, y = 00100000
+#                    8 a = 6, enable = 1, y = 01000000
+#                    9 a = 7, enable = 1, y = 10000000
+quit -sim
+# End time: 11:20:26 on Sep 04,2023, Elapsed time: 0:10:28
+# Errors: 54, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project 4to16binaryDecoder
+# Compile of decoder_4to16.v was successful.
+vsim work.tb_decoder_4to16
+# vsim work.tb_decoder_4to16 
+# Start time: 11:23:05 on Sep 04,2023
+# Loading work.tb_decoder_4to16
+# Loading work.decoder_4to16
+# Loading work.decoder_3to8
+add wave -position end  sim:/tb_decoder_4to16/a
+add wave -position end  sim:/tb_decoder_4to16/d
+add wave -position end  sim:/tb_decoder_4to16/i
+run -all
+#                    0 a =  x, d = xxxxxxxxxxxxxxxx
+#                    1 a =  0, d = 0000000000000001
+#                    3 a =  1, d = 0000000000000010
+#                    4 a =  2, d = 0000000000000100
+#                    5 a =  3, d = 0000000000001000
+#                    6 a =  4, d = 0000000000010000
+#                    7 a =  5, d = 0000000000100000
+#                    8 a =  6, d = 0000000001000000
+#                    9 a =  7, d = 0000000010000000
+#                   10 a =  8, d = 0000000100000000
+#                   11 a =  9, d = 0000001000000000
+#                   12 a = 10, d = 0000010000000000
+#                   13 a = 11, d = 0000100000000000
+#                   14 a = 12, d = 0001000000000000
+#                   15 a = 13, d = 0010000000000000
+#                   16 a = 14, d = 0100000000000000
+#                   17 a = 15, d = 1000000000000000
+quit -sim
+# End time: 11:26:47 on Sep 04,2023, Elapsed time: 0:03:42
+# Errors: 54, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project encoder_8to3
+# Compile of encoder_8to3.v was successful.
+vsim work.tb_encoder_8to3
+# vsim work.tb_encoder_8to3 
+# Start time: 11:28:40 on Sep 04,2023
+# Loading work.tb_encoder_8to3
+# Loading work.encoder_8to3
+add wave -position end  sim:/tb_encoder_8to3/d
+add wave -position end  sim:/tb_encoder_8to3/enable
+add wave -position end  sim:/tb_encoder_8to3/y
+add wave -position end  sim:/tb_encoder_8to3/i
+run -all
+#                    0 d = xxxxxxxx, y = x
+#                    1 d = 00000000, y = 0
+#                    2 d = 00000001, y = 0
+#                    3 d = 00000010, y = 1
+#                    4 d = 00000100, y = 2
+#                    5 d = 00001000, y = 3
+#                    6 d = 00010000, y = 4
+#                    7 d = 00100000, y = 5
+#                    8 d = 01000000, y = 6
+#                    9 d = 10000000, y = 7
+#                   10 d = 11111111, y = 0
+quit -sim
+# End time: 11:34:20 on Sep 04,2023, Elapsed time: 0:05:40
+# Errors: 54, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project prio_enc1_4to2
+# Compile of prio_enc1_4to2.v was successful.
+vsim work.tb_prio_enc1_4to2
+# vsim work.tb_prio_enc1_4to2 
+# Start time: 11:36:44 on Sep 04,2023
+# Loading work.tb_prio_enc1_4to2
+# Loading work.prio_enc1_4to2
+add wave -position end  sim:/tb_prio_enc1_4to2/d
+add wave -position end  sim:/tb_prio_enc1_4to2/v
+add wave -position end  sim:/tb_prio_enc1_4to2/q
+add wave -position end  sim:/tb_prio_enc1_4to2/i
+run -all
+#                    0 d = xxxx, q = x, v = x
+#                    1 d = 0000, q = 0, v = 0
+#                    2 d = 0001, q = 0, v = 1
+#                    3 d = 0010, q = 1, v = 1
+#                    4 d = 0100, q = 2, v = 1
+#                    5 d = 1000, q = 3, v = 1
+#                    6 d = 1111, q = 3, v = 1
+#                    7 d = 1001, q = 3, v = 1
+#                    8 d = 0101, q = 2, v = 1
+#                    9 d = 0000, q = 0, v = 0
+# ** Note: $stop    : /home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time44/prio_enc1_4to2.v(58)
+#    Time: 10 us  Iteration: 0  Instance: /tb_prio_enc1_4to2
+# Break in Module tb_prio_enc1_4to2 at /home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time44/prio_enc1_4to2.v line 58
+quit -sim
+#  Trace back: invalid command name ".main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data"
+#     while executing
+# "$widget index @$x,$y"
+#     (procedure "WaveABar::mouseMotionUpdate" line 19)
+#     invoked from within
+# "WaveABar::mouseMotionUpdate .main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data .main_pane.wave.interior.cs.body.pw.wf 69 593"
+#     ("after" script)
+#    <2:/tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/tk8.6/bgerror.tcl:106: ::tkerror {invalid command name ".main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data"}
+#    <1:proc:183: ::tk::dialog::error::bgerror {invalid command name ".main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data"}
+# End time: 11:40:09 on Sep 04,2023, Elapsed time: 0:03:25
+# Errors: 54, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project prio_enc2_4to2
+# Compile of prio_enc2_4to2.v was successful.
+vsim work.tb_prio_enc2_4to2
+# vsim work.tb_prio_enc2_4to2 
+# Start time: 11:41:11 on Sep 04,2023
+# Loading work.tb_prio_enc2_4to2
+# Loading work.prio_enc2_4to2
+add wave -position end  sim:/tb_prio_enc2_4to2/d
+add wave -position end  sim:/tb_prio_enc2_4to2/v
+add wave -position end  sim:/tb_prio_enc2_4to2/q
+add wave -position end  sim:/tb_prio_enc2_4to2/i
+run -all
+#                    0 d = xxxx, q = x, v = x
+#                    1 d = 0000, q = 0, v = 0
+#                    2 d = 0001, q = 0, v = 1
+#                    3 d = 0010, q = 1, v = 1
+#                    4 d = 0100, q = 2, v = 1
+#                    5 d = 1000, q = 3, v = 1
+#                    6 d = 1111, q = 3, v = 1
+#                    7 d = 1001, q = 3, v = 1
+#                    8 d = 0101, q = 2, v = 1
+#                    9 d = 0000, q = 0, v = 0
+# ** Note: $stop    : /home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time45/prio_enc2_4to2.v(46)
+#    Time: 10 us  Iteration: 0  Instance: /tb_prio_enc2_4to2
+# Break in Module tb_prio_enc2_4to2 at /home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time45/prio_enc2_4to2.v line 46
+quit -sim
+# End time: 11:49:58 on Sep 04,2023, Elapsed time: 0:08:47
+# Errors: 54, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project mux_4x_nbit
+# Compile of mux_4x_nbit.v was successful.
+vsim work.tb_mux_4x_nbit
+# vsim work.tb_mux_4x_nbit 
+# Start time: 11:52:51 on Sep 04,2023
+# Loading work.tb_mux_4x_nbit
+# Loading work.mux_4x_nbit
+add wave -position end  sim:/tb_mux_4x_nbit/BUS_WIDTH
+add wave -position end  sim:/tb_mux_4x_nbit/a
+add wave -position end  sim:/tb_mux_4x_nbit/b
+add wave -position end  sim:/tb_mux_4x_nbit/c
+add wave -position end  sim:/tb_mux_4x_nbit/d
+add wave -position end  sim:/tb_mux_4x_nbit/sel
+add wave -position end  sim:/tb_mux_4x_nbit/y
+add wave -position end  sim:/tb_mux_4x_nbit/i
+run -all
+#                    0 a =   x, b =   x, c =   x, d =   x, sel = x, y =   x
+#                    1 a =   0, b =   0, c =   0, d =   0, sel = 0, y =   0
+#                    2 a = 102, b = 182, c = 198, d =  70, sel = 2, y = 198
+#                    3 a =  46, b = 103, c =  58, d = 106, sel = 2, y =  58
+#                    4 a = 111, b =  86, c =  53, d = 212, sel = 0, y = 111
+#                    5 a = 125, b = 219, c =   5, d = 227, sel = 2, y =   5
+#                    6 a = 229, b =   5, c =  37, d = 233, sel = 0, y = 229
+#                    7 a = 138, b =  88, c = 139, d =  86, sel = 1, y =  88
+#                    8 a = 185, b =  64, c = 128, d =  14, sel = 1, y =  64
+#                    9 a = 142, b = 192, c = 151, d =  37, sel = 0, y = 142
+quit -sim
+# End time: 11:57:11 on Sep 04,2023, Elapsed time: 0:04:20
+# Errors: 54, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project demux_4x_nbit
+# Compile of demux_nbit_x4.v was successful.
+vsim work.tb_demux_nbit_x4
+# vsim work.tb_demux_nbit_x4 
+# Start time: 11:58:09 on Sep 04,2023
+# Loading work.tb_demux_nbit_x4
+# Loading work.demux_nbit_x4
+add wave -position end  sim:/tb_demux_nbit_x4/BUS_WIDTH
+add wave -position end  sim:/tb_demux_nbit_x4/a
+add wave -position end  sim:/tb_demux_nbit_x4/b
+add wave -position end  sim:/tb_demux_nbit_x4/c
+add wave -position end  sim:/tb_demux_nbit_x4/d
+add wave -position end  sim:/tb_demux_nbit_x4/sel
+add wave -position end  sim:/tb_demux_nbit_x4/y
+add wave -position end  sim:/tb_demux_nbit_x4/i
+run -all
+#                    0 sel = x, y =   x, a =   x, b =   x, c =   x, d =   x
+#                    1 sel = 0, y =   0, a =   0, b =   0, c =   0, d =   0
+#                    2 sel = 0, y =  38, a =  38, b =   0, c =   0, d =   0
+#                    3 sel = 1, y = 102, a =   0, b = 102, c =   0, d =   0
+#                    4 sel = 2, y = 182, a =   0, b =   0, c = 182, d =   0
+#                    5 sel = 3, y = 198, a =   0, b =   0, c =   0, d = 198
+#                    6 sel = 0, y =  70, a =  70, b =   0, c =   0, d =   0
+#                    7 sel = 1, y = 114, a =   0, b = 114, c =   0, d =   0
+#                    8 sel = 2, y =  46, a =   0, b =   0, c =  46, d =   0
+#                    9 sel = 3, y = 103, a =   0, b =   0, c =   0, d = 103
+quit -sim
+# End time: 12:03:31 on Sep 04,2023, Elapsed time: 0:05:22
+# Errors: 54, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project hex_7seg_decoder
+# Compile of hex_7seg_decoder.v was successful.
+vsim work.tb_hex_7seg_decoder
+# vsim work.tb_hex_7seg_decoder 
+# Start time: 12:04:22 on Sep 04,2023
+# Loading work.tb_hex_7seg_decoder
+# Loading work.hex_7seg_decoder
+add wave -position end  sim:/tb_hex_7seg_decoder/in
+add wave -position end  sim:/tb_hex_7seg_decoder/a
+add wave -position end  sim:/tb_hex_7seg_decoder/b
+add wave -position end  sim:/tb_hex_7seg_decoder/c
+add wave -position end  sim:/tb_hex_7seg_decoder/d
+add wave -position end  sim:/tb_hex_7seg_decoder/e
+add wave -position end  sim:/tb_hex_7seg_decoder/f
+add wave -position end  sim:/tb_hex_7seg_decoder/g
+add wave -position end  sim:/tb_hex_7seg_decoder/dot
+add wave -position end  sim:/tb_hex_7seg_decoder/i
+run -all
+#                    0 in =  x, seven_seg_code = xxxxxxx dot = 1
+#                    1 in =  0, seven_seg_code = 1111110 dot = 1
+#                    3 in =  1, seven_seg_code = 0110000 dot = 1
+#                    4 in =  2, seven_seg_code = 1101101 dot = 1
+#                    5 in =  3, seven_seg_code = 1111001 dot = 1
+#                    6 in =  4, seven_seg_code = 0110011 dot = 1
+#                    7 in =  5, seven_seg_code = 1011011 dot = 1
+#                    8 in =  6, seven_seg_code = 1011111 dot = 1
+#                    9 in =  7, seven_seg_code = 1110000 dot = 1
+#                   10 in =  8, seven_seg_code = 1111111 dot = 1
+#                   11 in =  9, seven_seg_code = 1111011 dot = 1
+#                   12 in = 10, seven_seg_code = 1110111 dot = 1
+#                   13 in = 11, seven_seg_code = 0011111 dot = 1
+#                   14 in = 12, seven_seg_code = 1001110 dot = 1
+#                   15 in = 13, seven_seg_code = 0111101 dot = 1
+#                   16 in = 14, seven_seg_code = 1001111 dot = 1
+#                   17 in = 15, seven_seg_code = 1000111 dot = 1
+quit -sim
+# End time: 12:09:20 on Sep 04,2023, Elapsed time: 0:04:58
+# Errors: 54, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project alu
+# Compile of ALU.v was successful.
+vsim work.tb_ALU
+# vsim work.tb_ALU 
+# Start time: 12:10:37 on Sep 04,2023
+# Loading work.tb_ALU
+# Loading work.ALU
+add wave -position end  sim:/tb_ALU/BUS_WIDTH
+add wave -position end  sim:/tb_ALU/opcode
+add wave -position end  sim:/tb_ALU/a
+add wave -position end  sim:/tb_ALU/b
+add wave -position end  sim:/tb_ALU/carry_in
+add wave -position end  sim:/tb_ALU/y
+add wave -position end  sim:/tb_ALU/carry_out
+add wave -position end  sim:/tb_ALU/borrow
+add wave -position end  sim:/tb_ALU/zero
+add wave -position end  sim:/tb_ALU/parity
+add wave -position end  sim:/tb_ALU/invalid_op
+run -all
+#                    0 opcode =  x, a =   x, b =   x, y =   x, carry_out=x, borrow=x, zero=x, parity=x, invalid_op=x
+#                    1 opcode =  0, a =   x, b =   x, y =   0, carry_out=0, borrow=0, zero=1, parity=0, invalid_op=1
+#                    2 opcode =  1, a =   9, b =  33, y =  42, carry_out=0, borrow=0, zero=0, parity=1, invalid_op=0
+#                    3 opcode =  2, a =   9, b =  33, y =  43, carry_out=0, borrow=0, zero=0, parity=0, invalid_op=0
+#                    4 opcode =  3, a =  65, b =  64, y =   1, carry_out=0, borrow=0, zero=0, parity=1, invalid_op=0
+#                    5 opcode =  3, a =  65, b =  66, y = 255, carry_out=0, borrow=1, zero=0, parity=0, invalid_op=0
+#                    6 opcode =  4, a = 233, b =  69, y = 234, carry_out=0, borrow=0, zero=0, parity=1, invalid_op=0
+#                    7 opcode =  5, a =   0, b =   3, y = 255, carry_out=0, borrow=1, zero=0, parity=0, invalid_op=0
+#                    8 opcode =  6, a =   2, b =   3, y =   2, carry_out=0, borrow=0, zero=0, parity=1, invalid_op=0
+#                    9 opcode =  7, a = 255, b =   3, y =   0, carry_out=0, borrow=0, zero=1, parity=0, invalid_op=0
+#                   10 opcode =  8, a =   1, b =   3, y =   2, carry_out=0, borrow=0, zero=0, parity=1, invalid_op=0
+#                   11 opcode =  9, a = 128, b =   3, y =  64, carry_out=0, borrow=0, zero=0, parity=1, invalid_op=0
+# ** Note: $stop    : /home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time49/ALU.v(109)
+#    Time: 12 us  Iteration: 0  Instance: /tb_ALU
+# Break in Module tb_ALU at /home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time49/ALU.v line 109
+quit -sim
+# End time: 13:07:00 on Sep 04,2023, Elapsed time: 0:56:23
+# Errors: 56, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project clkgen
+# Compile of clkgen.v was successful.
+vsim work.clkgen
+# vsim work.clkgen 
+# Start time: 13:10:07 on Sep 04,2023
+# Loading work.clkgen
+add wave -position end  sim:/clkgen/HALF_PERIOD_CLK1
+add wave -position end  sim:/clkgen/HALF_PERIOD_CLK2
+add wave -position end  sim:/clkgen/clock1
+add wave -position end  sim:/clkgen/clock2
+add wave -position end  sim:/clkgen/clock3
+run -all
+# ** Note: $stop    : /home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time50/clkgen.v(34)
+#    Time: 40 us  Iteration: 0  Instance: /clkgen
+# Break in Module clkgen at /home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time50/clkgen.v line 34
+quit -sim
+# End time: 13:35:48 on Sep 04,2023, Elapsed time: 0:25:41
+# Errors: 54, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project d_latch
+# Compile of d_latch.v was successful.
+vsim work.tb_d_latch
+# vsim work.tb_d_latch 
+# Start time: 13:36:45 on Sep 04,2023
+# Loading work.tb_d_latch
+# Loading work.d_latch
+add wave -position end  sim:/tb_d_latch/d
+add wave -position end  sim:/tb_d_latch/enable
+add wave -position end  sim:/tb_d_latch/q
+add wave -position end  sim:/tb_d_latch/q_not
+run -all
+#                    0 enable = 0, d = x, q = x, q_not = x
+#                    2 enable = 0, d = 0, q = x, q_not = x
+#                    3 enable = 0, d = 1, q = x, q_not = x
+#                    4 enable = 0, d = 0, q = x, q_not = x
+#                    5 enable = 0, d = 1, q = x, q_not = x
+#                    6 enable = 1, d = 1, q = 1, q_not = 0
+#                    6 enable = 1, d = 0, q = 0, q_not = 1
+#                    7 enable = 1, d = 1, q = 1, q_not = 0
+#                    8 enable = 0, d = 0, q = 1, q_not = 0
+#                    9 enable = 0, d = 1, q = 1, q_not = 0
+#                   11 enable = 0, d = 0, q = 1, q_not = 0
+# ** Note: $finish    : /home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time51/d_latch.v(61)
+#    Time: 40 us  Iteration: 0  Instance: /tb_d_latch
+# End time: 13:37:03 on Sep 04,2023, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 0

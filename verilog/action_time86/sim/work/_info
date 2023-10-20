@@ -1,0 +1,99 @@
+m255
+K4
+z2
+!s11f vlog 2019.2 2019.04, Apr 16 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time79/sim
+vprng
+!s110 1697017317
+!i10b 1
+!s100 z86DSP8CX0i0Td_L^=eDf3
+!s11b gY:CQmCRl6f:nK0z8T:Xg2
+I@011Wo@ZY6oY;Wd4_U]R22
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 d/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time86/sim
+w1697015174
+8/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time86/prng.v
+F/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time86/prng.v
+L0 2
+Z2 OP;L;2019.2;69
+r1
+!s85 0
+31
+Z3 !s108 1697017317.000000
+!s107 /home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time86/prng.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time86/prng.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vtb_encrypt
+Z6 !s110 1697017318
+!i10b 1
+!s100 a?<AkU0;TJUWS0oZbWHj01
+!s11b ZFL1k^Z2I8:d:RS<gnYJZ2
+IIO=T^HUiOV@=0oO;iP0C:0
+R0
+R1
+w1697015181
+8/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time86/tb_encrypt.v
+F/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time86/tb_encrypt.v
+L0 2
+R2
+r1
+!s85 0
+31
+R3
+!s107 /home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time86/tb_encrypt.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time86/tb_encrypt.v|
+!i113 1
+R4
+R5
+vtop_encrypt
+R6
+!i10b 1
+!s100 h0Y8=D8o36[m2^f@8lz:O0
+!s11b lLOE:<EM<4Om[LGkhVG7V3
+Ikchj;]@C_[i2T_L9`E6TT1
+R0
+R1
+w1697015178
+8/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time86/top_encrypt.v
+F/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time86/top_encrypt.v
+L0 2
+R2
+r1
+!s85 0
+31
+Z7 !s108 1697017318.000000
+!s107 /home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time86/top_encrypt.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time86/top_encrypt.v|
+!i113 1
+R4
+R5
+vtop_encrypt_golden
+R6
+!i10b 1
+!s100 Bk@U6:BM@=GAEkXY=kbRE0
+!s11b ?QF;56hbcS2NA3DILR96`3
+ITfHahc_KI@bV]b0mjJWZA2
+R0
+R1
+w1697015183
+8/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time86/top_encrypt_golden.v
+F/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time86/top_encrypt_golden.v
+L0 2
+R2
+r1
+!s85 0
+31
+R7
+!s107 /home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time86/top_encrypt_golden.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/us/Desktop/Course/Verilog HDL Fundamentals for Digital Design and Verification/verilog/action_time86/top_encrypt_golden.v|
+!i113 1
+R4
+R5

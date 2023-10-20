@@ -1,0 +1,71 @@
+# Loading project project
+# Compile of 00_helloWorld.v was successful.
+vsim work.hello_world
+# vsim work.hello_world 
+# Start time: 11:38:26 on Aug 18,2023
+# //  ModelSim DE 2019.2 Apr 16 2019 Linux 5.15.0-78-generic
+# //
+# //  Copyright 1991-2019 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim DE and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.hello_world
+run -all
+# 
+# 	 Hello world!
+# 
+quit -sim
+# End time: 11:47:07 on Aug 18,2023, Elapsed time: 0:08:41
+# Errors: 28, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project project
+# Compile of sum_product.v was successful.
+vsim work.sum_product
+# vsim work.sum_product 
+# Start time: 11:48:08 on Aug 18,2023
+# Loading work.sum_product
+run -all
+# 
+# 	 a = 3, b = 9, sum = 12
+# 
+# 	 x = 99.67, y = -33.41, prod_real = -3329.97
+quit -sim
+# End time: 12:04:19 on Aug 18,2023, Elapsed time: 0:16:11
+# Errors: 28, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project project
+# Compile of easy_verilog_example.v was successful.
+vsim work.easy_verilog_example
+# vsim work.easy_verilog_example 
+# Start time: 12:06:58 on Aug 18,2023
+# Loading work.easy_verilog_example
+add wave -position insertpoint sim:/easy_verilog_example/*
+run -all
+# x=0,y=1, z=1
+# x=0,y=0, z=0
+# x=0,y=0, z=1
+quit -sim
+# End time: 12:58:21 on Aug 18,2023, Elapsed time: 0:51:23
+# Errors: 23, Warnings: 0
+# reading /tools/mentor/modelsim_de_2019.2/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project project
+# Compile of literal_values.v was successful with warnings.
+vsim work.literal_values
+# vsim work.literal_values 
+# Start time: 12:59:22 on Aug 18,2023
+# Loading work.literal_values
+run -all
+# my_var = 137
+# my_var = 89
+# my_var = 10001001
+# my_var = 211
+# my_var = zzzz0001
+# my_var = 00000001
+# my_var = 11110000
